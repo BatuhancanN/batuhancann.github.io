@@ -36665,7 +36665,7 @@ A.Ap.prototype={
 gn(a){return a.length}}
 A.DO.prototype={}
 A.Ad.prototype={
-X(a){return new A.qU(new A.qL(null),"Flutter Demo",A.a9p(B.a6,null),!1,null)}}
+X(a){return new A.qU(new A.qL(null),"Weather BTU",A.a9p(B.a6,null),!1,null)}}
 A.kR.prototype={
 aq(){return new A.G5(B.o)}}
 A.G5.prototype={
