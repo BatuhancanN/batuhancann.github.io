@@ -5,9 +5,9 @@
 
 const typed = new Typed('.multiple-text', {
     strings: ['Full-Stack Developer', 'Kotlin, C# WPF, React, PHP', 'OracleDB, MySQL, MSSQL' , 'Grafik Tasarım'],
-    typeSpeed: 40,
-    backSpeed: 20,
-    backDelay: 350,
+    typeSpeed: 80,
+    backSpeed: 10,
+    backDelay: 300,
     loop: true
 });
 

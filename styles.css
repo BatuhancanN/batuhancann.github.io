@@ -311,6 +311,9 @@ section{
     .home-img img{
         width: 52vw;
     }
+    .home-content h3{
+        font-size: 2rem;
+    }
 }
 
 .header.sticky {
