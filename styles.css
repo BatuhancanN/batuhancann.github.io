@@ -13,9 +13,9 @@ html{
 }
 :root{
     --bg-color: #080808;
-    --second-bg-color: #001005;
+    --second-bg-color: #1b0706;
     --text-color: white;
-    --main-color: #00ff51;
+    --main-color: #e74c3c;
 }
 body{
     background-color: var(--bg-color);
@@ -60,7 +60,8 @@ span{
     border-bottom: 3px solid transparent;
     transition: 0.3s ease;
 }
-.navbar a:hover{
+.navbar a:hover,
+.navbar a.active{
     border-bottom: 3px solid var(--main-color);
     color: var(--main-color);
 }
@@ -310,4 +311,8 @@ section{
     .home-img img{
         width: 52vw;
     }
+}
+
+.header.sticky {
+    border-bottom: .1rem solid rgba(0, 0, 0, .2);
 }
