@@ -16,7 +16,7 @@ const typed = new Typed('.multiple-text', {
 
 ScrollReveal({ 
     distance: '200px',
-    duration: 800,
+    duration: 500,
     delay: 20,
     reset: true
 
