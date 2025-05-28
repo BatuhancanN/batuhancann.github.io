@@ -4,7 +4,7 @@
 //typed.js
 
 const typed = new Typed('.multiple-text', {
-    strings: ['Full-Stack Developer', 'Kotlin, C# WPF, React, PHP', 'OracleDB, MySQL, MSSQL' , 'Grafik Tasarım'],
+    strings: ['Full-Stack Developer', 'Kotlin, .NET MVC, React, PHP', 'OracleDB, MySQL, MSSQL' , 'Grafik Tasarım'],
     typeSpeed: 80,
     backSpeed: 10,
     backDelay: 300,
