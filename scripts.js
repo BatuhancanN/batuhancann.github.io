@@ -1,7 +1,7 @@
 // Typed.js — Hero text animation
 const typed = new Typed('.multiple-text', {
     strings: [
-        'Full-Stack Developerrr',
+        'Full-Stack Developer',
         'React Native &amp; .NET',
         'Oracle &amp; MSSQL &amp; PostgreSQL',
         'Mobil &amp; Masaüstü Çözümler'
