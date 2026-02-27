@@ -26,11 +26,15 @@ jobs:
         with:
           node-version: 20
           cache: npm
+          cache-dependency-path: react-app/package-lock.json
 
-      - run: npm ci
+      - name: Install dependencies
+        run: npm ci
+        working-directory: react-app
 
       - name: Build
         run: npm run build
+        working-directory: react-app
         env:
           VITE_ADMIN_USERNAME: ${{ secrets.VITE_ADMIN_USERNAME }}
           VITE_ADMIN_PASSWORD: ${{ secrets.VITE_ADMIN_PASSWORD }}
@@ -39,7 +43,7 @@ jobs:
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: react-app/dist
 
       - id: deployment
         uses: actions/deploy-pages@v4
