@@ -2,9 +2,9 @@
 const typed = new Typed('.multiple-text', {
     strings: [
         'Full-Stack Developer',
-        'React Native & .NET',
-        'Oracle & MSSQL & PostgreSQL',
-        'Mobil & Masaüstü Çözümler'
+        'React Native, .NET',
+        'Oracle, MSSQL, PostgreSQL',
+        'Mobil, Masaüstü Çözümler'
     ],
     typeSpeed: 50,
     backSpeed: 25,
